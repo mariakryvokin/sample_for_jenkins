@@ -7,6 +7,6 @@ import java.io.IOException;
 public class HelloWorld extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        resp.getWriter().println("HELLO FROM SIMPLE PROJECT!");
+        resp.getWriter().println("HELLO FROM SIMPLE PROJCT!");
     }
 }
